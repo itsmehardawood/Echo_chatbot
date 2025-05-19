@@ -454,14 +454,14 @@ export default function ServicesAdminPage() {
             ))}
           </div>
         ) : (
-          <div className="bg-white rounded-xl p-8 text-center shadow-sm">
-            <div className="mx-auto w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mb-4">
-              <MdOutlineMiscellaneousServices className="h-12 w-12 text-gray-400" />
-            </div>
-            <h3 className="text-xl font-medium text-gray-900 mb-2">No services available</h3>
-            <p className="text-gray-500">There are currently no services to display</p>
-          </div>
-        )}
+    <div className="bg-white rounded-xl p-8 text-center shadow-sm">
+      <div className="mx-auto w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mb-4">
+        <MdOutlineMiscellaneousServices className="h-12 w-12 text-gray-400" />
+      </div>
+      <h3 className="text-xl font-medium text-gray-900 mb-2">No services available</h3>
+      <p className="text-gray-500">There are currently no services to display</p>
+    </div>
+  )}
       </section>
 
       {/* CHAT HISTORY TABLE (static for now) */}

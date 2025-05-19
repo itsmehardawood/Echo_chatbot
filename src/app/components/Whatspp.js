@@ -1,7 +1,7 @@
 import React from "react";
 
 const WhatsAppButton = () => {
-  const phoneNumber = "+12705801116"; // Replace with your desired phone number (no + or spaces)
+  const phoneNumber = "+972547237667"; 
 
   const handleClick = () => {
     window.open(`https://wa.me/${phoneNumber}`, "_blank");
