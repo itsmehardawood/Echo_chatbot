@@ -6,7 +6,6 @@ export async function GET(request) {
   const embedUrl = `https://echo-chatbot-eight.vercel.app/${locale}/chatbot-embed?userId=${userId}`;
 
   const jsCode = `
-    console.log("✅ Injecting chatbot for userId: ${userId}");
 
     const iframe = document.createElement('iframe');
     iframe.src = "${embedUrl}";
